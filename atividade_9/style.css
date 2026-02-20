@@ -1,0 +1,44 @@
+ body{
+        font-family: Arial;
+        background: #b4d0fa;
+        margin:0;
+        padding:20px;
+    }
+
+    .container{
+        display:flex;
+        gap:20px;
+        border-radius: 2000px;
+    }
+
+    .formulario, .painel{
+        width:50%;
+        background:white;
+        padding:20px;
+        border-radius:2000px blue;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2{
+        margin-bottom:15px;
+    }
+
+    input, select, button{
+        width:100%;
+        padding:8px;
+        margin-bottom:10px;
+        border-radius:50px;
+        border:1px solid #ccc;
+    }
+
+    button{
+        background:#007bff;
+        color:white;
+        font-weight:bold;
+        cursor:pointer;
+    }
+
+    #resultado{
+        white-space:pre-line;
+        font-size:14px;
+    }
